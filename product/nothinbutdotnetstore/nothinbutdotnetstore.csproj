@@ -78,6 +78,7 @@
     <Compile Include="web\core\WebCommand.cs" />
     <Compile Include="web\core\WebCommandRegistry.cs" />
     <Compile Include="web\core\WebFormResponseEngine.cs" />
+    <Compile Include="web\core\WebRequest.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

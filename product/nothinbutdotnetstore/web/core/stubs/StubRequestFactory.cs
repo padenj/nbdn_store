@@ -16,15 +16,6 @@ namespace nothinbutdotnetstore.web.core.stubs
         {
             public StubRequest(HttpRequest request)
             {
-                Url = request.Url.ToString();
-                QueryString = request.Url.Query.Trim('?').Split('&');
-
-            }
-
-            public string[] QueryString
-            {
-                get;
-                private set;
             }
 
             public InputModel map<InputModel>() 
@@ -32,10 +23,6 @@ namespace nothinbutdotnetstore.web.core.stubs
                 throw new NotImplementedException();
             }
 
-            public string Url
-            {
-                get; private set;
-            }
         }
     }
 }

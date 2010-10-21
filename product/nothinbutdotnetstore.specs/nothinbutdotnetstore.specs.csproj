@@ -66,12 +66,14 @@
     <Compile Include="web\FrontControllerSpecs.cs" />
     <Compile Include="web\RequestHandlerSpecs.cs" />
     <Compile Include="web\ResponseEngineSpecs.cs" />
+    <Compile Include="web\StoreDirectoryControllerSpecs.cs" />
     <Compile Include="web\ViewDepartmentsInDepartmentsSpecs.cs" />
     <Compile Include="web\ViewFactorySpecs.cs" />
     <Compile Include="web\ViewMainDeparmentsInTheStoreSpecs.cs" />
     <Compile Include="web\ViewProductsInADepartmentSpecs.cs" />
     <Compile Include="web\WebCommandRegistrySpecs.cs" />
     <Compile Include="web\WebCommandSpecs.cs" />
+    <Compile Include="web\WebRequestSpecs.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\nothinbutdotnetstore\nothinbutdotnetstore.csproj">
