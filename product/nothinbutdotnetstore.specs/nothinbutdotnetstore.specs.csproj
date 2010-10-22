@@ -94,10 +94,12 @@
     <Compile Include="web\RequestSpecs.cs" />
     <Compile Include="web\ResponseEngineSpecs.cs" />
     <Compile Include="web\RouteSpecs.cs" />
+    <Compile Include="web\RouteTableSpecs.cs" />
     <Compile Include="web\ViewDepartmentsInDepartmentsSpecs.cs" />
     <Compile Include="web\ViewFactorySpecs.cs" />
     <Compile Include="web\ViewMainDeparmentsInTheStoreSpecs.cs" />
     <Compile Include="web\ViewProductsInADepartmentSpecs.cs" />
+    <Compile Include="web\WebCommandFactorySpecs.cs" />
     <Compile Include="web\WebCommandRegistrySpecs.cs" />
     <Compile Include="web\WebCommandSpecs.cs" />
   </ItemGroup>

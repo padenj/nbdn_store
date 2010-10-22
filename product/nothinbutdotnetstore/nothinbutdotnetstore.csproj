@@ -105,7 +105,9 @@
     <Compile Include="web\core\CurrentContextResolver.cs" />
     <Compile Include="web\core\DefaultFrontController.cs" />
     <Compile Include="web\core\DefaultInputModelMapper.cs" />
+    <Compile Include="web\core\DefaultRouteTable.cs" />
     <Compile Include="web\core\DefaultWebCommand.cs" />
+    <Compile Include="web\core\DefaultWebCommandFactory.cs" />
     <Compile Include="web\core\DefaultWebCommandRegistry.cs" />
     <Compile Include="web\core\FrontController.cs" />
     <Compile Include="web\core\HttpHandlerViewFactory.cs" />
@@ -125,6 +127,7 @@
     <Compile Include="web\core\ViewForA.cs" />
     <Compile Include="web\core\ViewRegistry.cs" />
     <Compile Include="web\core\WebCommand.cs" />
+    <Compile Include="web\core\WebCommandFactory.cs" />
     <Compile Include="web\core\WebCommandRegistry.cs" />
     <Compile Include="web\core\WebFormResponseEngine.cs" />
   </ItemGroup>
